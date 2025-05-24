@@ -25,6 +25,7 @@ export interface Flashcard {
   color?: string;
   createdAt: number;
   updatedAt: number;
+  tags: string;
 }
 
 export class FlashcardDB extends Dexie {
